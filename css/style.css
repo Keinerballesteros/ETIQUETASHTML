@@ -27,3 +27,48 @@
     background-color: bisque;
     
 }
+#title_box{
+    color: rgb(43, 226, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 20px 50px 30px 50px;
+    background-color: bisque;
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    box-shadow: 0px 0px 10px 2px #3d1919;
+    -webkit-box-shadow: 10px 11px 40px 15px rgba(38,35,38,0.67);
+    -moz-box-shadow: 10px 11px 40px 15px rgba(38,35,38,0.67);
+    box-shadow: 10px 11px 40px 15px rgba(38,35,38,0.67);
+}
+#box_father{
+    background-image: url(https://i.pinimg.com/1200x/0e/dd/16/0edd16205ef00bd7628bff31096e2b45.jpg);
+    width: 35%;
+    height: 400px;
+}
+/*
+#box_hijo{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
+*/
+/* Aplicacion de media querls*/
+@media(min-width: 800px) and (max-width:1200px){
+    body{
+        background-color: black;
+        
+}
+#title_box{
+    text-align: left;
+
+}
+}
+@media screen (max-width: 799px) {
+    background-image: url(https://i.pinimg.com/1200x/0e/dd/16/0edd16205ef00bd7628bff31096e2b45.jpg);
+    
+}
