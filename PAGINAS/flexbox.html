@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+    .container{
+        width: 100px;
+        height: 100vh;
+        place-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #son, #son_one #son_two, #son_three{
+        height: 100px;
+        background-color: #000;
+        width: 200px;
+        border-radius: 10px;
+        transform: skew(5deg,-10deg);
+    }
+    #son_one{
+        background-color: aqua;
+        transform: rotate(15deg);
+    }
+    #son_two{
+        background-color: blue;
+        border-radius: 50%;
+        transform: scale(3,2);
+        border: 3px solid #000;
+    }
+    #son_three{
+        background-color: blueviolet;
+        transform: skew(-5deg,-10deg);
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="title_box">
+            <h2>CLASS FLEXBOX</h2>
+        </div>
+    </div>
+    <div id="father">
+        <div id="son_one"></div>
+        <div id="son_two"></div>
+        <div id="son_three"></div>
+    </div>
+</body>
+</html>
