@@ -69,6 +69,29 @@
 }
 }
 @media screen (max-width: 799px) {
-    background-image: url(https://i.pinimg.com/1200x/0e/dd/16/0edd16205ef00bd7628bff31096e2b45.jpg);
+    background-image: url:(https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg);
     
+}
+li {
+    position: relative;
+    display: table-cell;
+    padding: 15px 0;
+}
+a{
+    color: #ffff;
+    text-decoration: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    text-decoration: none;
+}
+a:hover::after{
+    width: 100%;
+    left: 0;
+    background-color: #00fffc;
+}
+body{
+    background-color: black;
+    color:white;
 }
