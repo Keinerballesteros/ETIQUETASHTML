@@ -50,26 +50,25 @@
     width: 35%;
     height: 400px;
 }
-/*
+
 #box_hijo{
     background-color: aqua;
     width: 50%;
     height: 50%;
 }
-*/
-/* Aplicacion de media querls*/
-@media(min-width: 800px) and (max-width:1200px){
-    body{
-        background-color: black;
-        
-}
-#title_box{
-    text-align: left;
 
+/* Aplicacion de media querls*/
+@media(min-width:800px) and (max-width:1200px) {
+    body {
+        background-color: black;
+    }
+    #title_box {
+        text-align:left;
+    }
 }
-}
-@media screen (max-width: 799px) {
-    background-image: url:(https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg);
+@media (max-width: 799px) {
+    body {
+        background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=YVrRV3hG&id=5614E2D371DA7EF8332D3B03EE78A8ADB66FBFB1&thid=OIP.YVrRV3hGAwJoUNEON1lRWwHaEw&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.615ad157784603026850d10e3759515b%3frik%3dsb9vtq2oeO4DOw%26riu%3dhttp%253a%252f%252fupload.wikimedia.org%252fwikipedia%252fcommons%252f7%252f7f%252fLada_Niva_front_20080228.jpg%26ehk%3dhW5I3vOGnMFcyxYQyLjq7g4qDfD8QYkdRVutx5w5ghg%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1122&expw=1746&q=lada+niva+200px&simid=608028259992828879&FORM=IRPRST&ck=BA675E48A610618D88961E6EBB8BBC04&selectedIndex=1);
     
 }
 li {
@@ -91,7 +90,7 @@ a:hover::after{
     left: 0;
     background-color: #00fffc;
 }
-body{
+.menu{
     background-color: black;
     color:white;
 }
